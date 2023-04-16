@@ -1,0 +1,23 @@
+{
+  "name": "wordproj",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --host=127.0.0.1",
+    "dev": "vite  --port 5173",
+    "build": "vite build",
+    "preview": "vite preview",
+    "host": "vite --host"
+  },
+  "dependencies": {
+    "js-confetti": "^0.11.0",
+    "sortablejs": "^1.15.0",
+    "vue": "^3.2.47",
+    "vuetify": "^3.1.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  }
+}

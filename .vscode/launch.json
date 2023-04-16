@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "firefox",
+        "request": "launch",
+        "name": "Launch FireFox localhost",
+        "url": "http://localhost:5173",
+        "webRoot": "${workspaceFolder}",
+        "pathMappings": [
+          {
+            "url": "http://localhost:5173/src/main.js",
+            "path": "${workspaceFolder}/src/main.js"
+          },
+          {
+            "url": "http://localhost:5173/src/test.js",
+            "path": "${workspaceFolder}/src/test.js"
+          },
+          {
+            "url": "http://localhost:5173/src/draggable.js",
+            "path": "${workspaceFolder}/src/draggable.js"
+          },
+          
+        ]
+      },
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Launch Chrome against localhost",
+        "url": "http://localhost:5173",
+        "webRoot": "${workspaceFolder}"
+      }
+    ]
+}
